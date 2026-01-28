@@ -1,0 +1,6 @@
+CREATE TABLE market_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ticker VARCHAR(10),
+    price DECIMAL(10, 2),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
